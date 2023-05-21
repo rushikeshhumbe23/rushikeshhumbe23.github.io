@@ -1,0 +1,17 @@
+.ProfileImage{
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+}
+.homeInfo{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.socialIcons{
+    margin:10px 5px;
+}
+.socialIcons:hover{
+    color:rgb(152, 80, 8)
+}

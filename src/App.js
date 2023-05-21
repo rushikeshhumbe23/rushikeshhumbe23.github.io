@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Box } from "@chakra-ui/react";
+import "./App.css";
+import About from "./pages/About";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import useDarkMode from "./hooks/useDarkMode";
+import Skills from "./pages/Skills";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 function App() {
+  const [isDarkMode, toggleDarkMode] = useDarkMode();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box className="App">
+      <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+      <Home isDarkMode={isDarkMode} />
+      <About />
+      <Skills isDarkMode={isDarkMode} />
+      <Projects />
+      <Contact />
+    </Box>
   );
 }
 

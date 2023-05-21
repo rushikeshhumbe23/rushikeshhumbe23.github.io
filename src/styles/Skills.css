@@ -1,0 +1,21 @@
+
+.Skillcont{
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.mainSkills{
+    width:80%;
+    margin: auto;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skillicon:hover{
+    color: rgb(233, 124, 8);
+}

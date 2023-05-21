@@ -1,0 +1,76 @@
+.DropdownMenu{
+    position:absolute;
+    top:60px;
+    right:0px;
+    width: 200px;
+    padding:10px;
+    height:50vh;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    z-index: 100;
+}
+.DropdownmenuLight {
+    background-color:#72a8e1;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.DropdownMenuDark{
+    background-color: black;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 6px 12px -2px, rgba(255, 255, 255, 0.3) 0px 3px 7px -3px; 
+}
+.Dropdownmenu > button ,.DropdownMenuDark>button {
+    width: 70%;
+} 
+.Dropdownmenu > button:hover ,.DropdownMenuDark>button:hover {
+    color: rgb(253, 131, 0);
+}
+.navbuttons{
+    background-color: inherit;
+}
+
+
+.navbarMain{
+    justify-content: space-between;
+    align-items: center;
+    width:100% ;
+    height: 40px;
+    padding:30px 0px;
+   border-radius:10px;
+    z-index: 1000;
+}
+
+.navmenu_light{
+   
+        box-shadow:rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        background-color:#72a8e1;
+        border: 1px solid #72a8e1;
+       
+}
+.navmenu_Dark {
+ 
+        
+        color: white;
+        box-shadow:rgba(249, 249, 251, 0.25) 0px 6px 12px -2px, rgba(249, 249, 249, 0.3) 0px 3px 7px -3px;
+         border: 1px solid white;
+         background-color: black;
+        
+}
+.navHello {
+    color:rgba(70, 7, 79, 0.991);
+    letter-spacing: -2px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 3%;
+
+}
+.navHello_Dark{
+    color: rgb(253, 131, 0);
+    letter-spacing: -2px;
+    margin-left: 3%;
+}
+.menubuttons>button:hover{
+    color: rgb(253, 131, 0);
+}
+.menubuttonsDark>button:hover{
+    color: rgb(253, 131, 0);
+}
