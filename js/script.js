@@ -23,6 +23,13 @@ let resume2 = document
   .getElementById("resume-button-2")
   .addEventListener("click", NewTab);
 
+function NewTab() {
+  window.open(
+    "https://drive.google.com/file/d/1dS82bx7pu_STR236_C74fybEXqqJln6p/view?usp=sharing",
+    "_blank"
+  );
+}
+
 // =========================== Resume Button =====================================================
 function downloadAndOpen() {
   const resumeURL =
