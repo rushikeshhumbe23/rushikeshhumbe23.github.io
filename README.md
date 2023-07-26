@@ -1,1 +1,1 @@
-# rushikeshhumb23.github.io
+# rushikeshhumbe23.github.io
