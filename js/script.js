@@ -1,7 +1,7 @@
 // *=============================== toggle icon navbar ==================================
 
 let menuIcon = document.querySelector("#menu-icon");
-let navbar = document.querySelector("#nav-menu");
+let navbar = document.querySelector(".header");
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
@@ -28,6 +28,25 @@ function NewTab() {
     "https://drive.google.com/file/d/1dS82bx7pu_STR236_C74fybEXqqJln6p/view?usp=sharing",
     "_blank"
   );
+}
+
+// =========================== Resume Button =====================================================
+function downloadAndOpen() {
+  const resumeURL =
+    "https://drive.google.com/file/d/1dS82bx7pu_STR236_C74fybEXqqJln6p/view?usp=sharing";
+  const downloadURL =
+    "https://drive.google.com/uc?export=download&id=1dS82bx7pu_STR236_C74fybEXqqJln6p";
+
+  // Open the link in a new tab
+  window.open(resumeURL, "_blank");
+
+  // Trigger the download
+  const link = document.createElement("a");
+  link.href = downloadURL;
+  link.download = "Rushikesh-Humbe-Resume.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 // *=============================== scroll sections active link ==================================
