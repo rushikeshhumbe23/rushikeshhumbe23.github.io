@@ -187,14 +187,14 @@ transform: translate3d(0, 0, 0);
   align-items: center;
     /* position: absolute;  */
 }
-.home-img  img{
+.home-img2  img{
   max-width: 380px;
   border-radius: 50%;
   height: 350px;
   animation: floatImage 4s ease-in-out infinite;
   
 }
-.home-img{
+.home-img2{
   border-radius: 20px; 
 }
 @keyframes floatImage {
