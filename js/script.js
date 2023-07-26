@@ -52,9 +52,9 @@ window.onscroll = () => {
   });
   // *=============================== sticky navbar ==================================
 
-  let header = document.querySelector("header");
+  // let header = document.querySelector("header");
 
-  header.classList.toggle("sticky", window.scrollY > 100);
+  // header.classList.toggle("sticky", window.scrollY > 100);
 
   // *=============================== remove toggle icon and navbar when click navbar link(scroll) ==================================
 
@@ -79,24 +79,10 @@ ScrollReveal().reveal(
 ScrollReveal().reveal(".home-content h1", { origin: "left" });
 ScrollReveal().reveal(".home-content p, .about-content", { origin: "left" });
 
-// *===============================  typed js==================================
-
-const typed = new Typed(".multiple-text", {
-  strings: [
-    "Full Stack Web Developer",
-    "Backend Developer with Node.js",
-    "Problem Solver",
-  ],
-  typeSpeed: 100,
-  backSpeed: 100,
-  backdelay: 1000,
-  loop: true,
-});
-
 let stats = document
   .getElementById("github-top-langs")
   .addEventListener("click", statsfun);
 
 function statsfun() {
-  window.open("https://github.com/mdasriya", "_blank");
+  window.open("https://github.com/rushikeshhumbe23", "_blank");
 }

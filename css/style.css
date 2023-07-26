@@ -102,7 +102,7 @@ section {
     min-height: 90vh;
     padding: 4rem 9% 2rem;
 }
-.header {
+#nav-menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -114,7 +114,7 @@ section {
     align-items: center;
     z-index: 100;
 }
-.header.sticky {
+#nav-menu.sticky {
   border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 .logo {
@@ -124,14 +124,14 @@ section {
   cursor: default;
 }
 
-#nav-menu {
+.header{
   list-style: none;
   display: flex;
   background: var(--bg-color);
   margin: 0 2rem;
 }
 
-#nav-menu a {
+.header a {
   font-size: 1.7rem;
   color: var(--text-color);
   margin-left: 3rem;
@@ -141,7 +141,7 @@ section {
   padding: 0.2em 0;
 
 } 
-#nav-menu a::after {
+.header a::after {
   content: '';
 position: absolute;
 bottom: 0;
@@ -153,26 +153,26 @@ opacity: 0;
 transition: opacity 300ms, transform 300ms;
 
 } 
-#nav-menu  a:hover::after,
+.header  a:hover::after,
 a:focus::after {
 opacity: 1;
 transform: translate3d(0, 0.2em, 0);
 }
-#nav-menu a {
+.header a {
 overflow: hidden;
 }
 
-#nav-menu  a::after {
+.header  a::after {
 opacity:1;
 transform: translate3d(-100%, 0, 0);
 }
 
-#nav-menu a:hover::after,
-#nav-menu a:focus::after{
+.header a:hover::after,
+.header a:focus::after{
 transform: translate3d(0, 0, 0);
 }
-#nav-menu a:hover,
-#nav-menu a.active {
+.header a:hover,
+.header a.active {
   color:var(--bg-carolina-red)
 }
 #menu-icon {
