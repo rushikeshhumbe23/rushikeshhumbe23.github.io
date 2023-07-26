@@ -187,14 +187,14 @@ transform: translate3d(0, 0, 0);
   align-items: center;
     /* position: absolute;  */
 }
-.home-img2  img{
+.home-img  img{
   max-width: 380px;
   border-radius: 50%;
   height: 350px;
   animation: floatImage 4s ease-in-out infinite;
   
 }
-.home-img2{
+.home-img{
   border-radius: 20px; 
 }
 @keyframes floatImage {
@@ -218,7 +218,7 @@ transform: translate3d(0, 0, 0);
 .home-content h1 {
     font-size: 5.6rem;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.3; 
 }
 .home-content p {
     font-size: 1.6rem;
@@ -257,6 +257,7 @@ transform: translate3d(0, 0, 0);
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+  
 }
 .btn:hover{
     box-shadow: none;
@@ -273,6 +274,7 @@ transform: translate3d(0, 0, 0);
 }
 .about-img img {
     width:25vw;
+    height: 50vh;
     border-radius: 50%;
     box-shadow: 0 0 1rem var(--main-color);
 }
