@@ -16,13 +16,6 @@ GitHubCalendar(".calendar", "0avinashmohandev1", { responsive: true });
 
 // *=============================== resume opening in a new tab ==================================
 
-let resume1 = document
-  .getElementById("resume-button-1")
-  .addEventListener("click", NewTab);
-let resume2 = document
-  .getElementById("resume-button-2")
-  .addEventListener("click", NewTab);
-
 function NewTab() {
   window.open(
     "https://drive.google.com/file/d/1dS82bx7pu_STR236_C74fybEXqqJln6p/view?usp=sharing",
